@@ -13,7 +13,7 @@ SpaceHipster.Game.prototype = {
 		//Create player
 		this.player = this.game.add.sprite(this.game.world.centerX, this.game.world.centerY, 'playership');
 		this.player.scale.setTo(2); //Increase the size
-		this.player.animations.add('fly', [0, 1, 2, 3], 5, true); //Cycle through sprites 0-4 at 5 frames each and repeat
+		this.player.animations.add('fly', [0, 1, 2, 3], 5, true); //Cycle through sprites 0-3 at 5 frames each and repeat
 		this.player.animations.play('fly');
 		
 		//Lock the camera on the player
